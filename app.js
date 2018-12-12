@@ -16,7 +16,7 @@ app.get("/measurements", function (req, res){
 
     res.render("measurements", {measurements:measurements})
 });
-
+// Dodatkowy komentarz
 app.listen(3000, function (){
     console.log("The bodyfat server has started on port 3000.");
 });
